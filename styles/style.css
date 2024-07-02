@@ -1,1 +1,285 @@
 /* место для вашего кода */
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.content-container--small {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.content-container--big {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.text-align--center {
+  text-align: center;
+}
+
+.text-align--end {
+  text-align: end;
+}
+
+.block__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.block__relative-container {
+  position: relative;
+  z-index: 2;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 97px;
+  padding-bottom: 98px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 25px;
+  list-style: circle;
+}
+
+.header__links-list__item {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+}
+
+.header__links-list__item:first-child {
+  list-style: none;
+}
+
+.header__link--current {
+  text-decoration: none;
+}
+
+.header__brand {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 148px;
+}
+
+.address {
+  font-size: 18px;
+  line-height: 1.35;
+  max-width: 235px;
+}
+
+.cover {
+  position: relative;
+  padding-top: 165px;
+  padding-bottom: 51px;
+  color: #fff;
+  background-image: url(/images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover__title {
+  margin-bottom: 135px;
+  font-size: 100px;
+  line-height: 1;
+  letter-spacing: 0.3em;
+}
+
+.cover__title__word {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.cover__title__word:first-child {
+  line-height: 1.15;
+}
+
+.cover__title__word:last-child {
+  margin-bottom: 0;
+}
+
+.letter-spacing--extended {
+  letter-spacing: 0.6em;
+}
+
+.letter-spacing--reset {
+  letter-spacing: 0em;
+}
+
+.cover__description-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 79px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  line-height: 1.27;
+  text-transform: uppercase;
+  word-spacing: 0.8em;
+}
+
+.bet-button {
+  padding: 12px 32px;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.lots {
+  padding-top: 179px;
+}
+
+.lots__title {
+  margin-bottom: 27px;
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+.lots__list {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  list-style: none;
+}
+
+.lots__list__item {
+  flex-grow: 1;
+  flex-basis: 334px;
+}
+
+.lots__card {
+  display: block;
+  position: relative;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.lots__card__background {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.lots__card__image {
+  height: 100%;
+  object-fit: cover;
+}
+
+.lots__card__content-container {
+  padding: 51px 40px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.lots__card__title {
+  font-size: 22px;
+  line-height: 1.2;
+  text-decoration: underline;
+}
+
+.lots__card__text {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.lots__link {
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.about {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  display: grid;
+  grid-template-columns: 1fr 693px;
+  gap: 72px;
+}
+
+.about__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: end;
+  padding: 0 46px;
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.about__title {
+  margin: 100px 0;
+  font-size: 40px;
+}
+
+.about__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about__text {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 88px;
+}
+
+.footer__menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX( -50%);
+}
+
+.footer__links-list {
+  list-style: none;
+}
+
+.footer__link {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer__link--current {
+  text-decoration: none;
+}
+
+.footer__socials-list {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+
+.footer__social-link {
+  display: block;
+  width: 48px;
+}

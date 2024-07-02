@@ -8,6 +8,8 @@ body {
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -27,8 +29,13 @@ blockquote {
 
 a {
   color: inherit;
+  text-underline-offset: 0.225em;
 }
 
 img {
   width: 100%;
+}
+
+address {
+  font-style: normal;
 }
