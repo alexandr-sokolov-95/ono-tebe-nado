@@ -1,1 +1,1 @@
-https://github.com/alexandr-sokolov-95/ono-tebe-nado
+Link: https://github.com/alexandr-sokolov-95/ono-tebe-nado
