@@ -84,7 +84,7 @@ h3 {
   padding-top: 165px;
   padding-bottom: 51px;
   color: #fff;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
