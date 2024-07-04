@@ -169,12 +169,22 @@ h3 {
 .lots__card {
   display: block;
   position: relative;
+  padding: 51px 40px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100%;
   color: #fff;
   text-decoration: none;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.lots__card__title,
+.lots__card__text {
+  position: relative;
+  z-index: 2;
 }
 
 .lots__card--movie {
@@ -193,14 +203,6 @@ h3 {
   position: absolute;
   inset: 0;
   z-index: 1;
-}
-
-.lots__card__content-container {
-  padding: 51px 40px 48px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
 }
 
 .lots__card__title {
